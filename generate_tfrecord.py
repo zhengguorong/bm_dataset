@@ -52,20 +52,84 @@ def create_tf_example(group, path):
         ymins.append(row['ymin'] / row['height'])
         ymaxs.append(row['ymax'] / row['height'])
         classes_text.append(row['class'])
-        if row['class'] == 'shouxi':
+        if row['class'] == 'bluemoon_shouxi_fengqingbailai_500g':
             classes.append(1)
-        elif row['class'] == 'zhizun_blue':
+        elif row['class'] == 'bluemoon_zhizun_suyalanxiang_660g':
             classes.append(2)
-        elif row['class'] == 'zhizun_blue_box':
+        elif row['class'] == 'bluemoon_zhizun_suyalanxiang_box':
             classes.append(3)
-        elif row['class'] == 'zhizun_blue_bag':
+        elif row['class'] == 'bluemoon_zhizun_suyalanxiang_bag_600g':
             classes.append(4)
-        elif row['class'] == 'zhizun_white_box':
+        elif row['class'] == 'bluemoon_zhizun_qingyunmeixiang_box':
             classes.append(5)
-        elif row['class'] == 'zhizun_white_bag':
+        elif row['class'] == 'bluemoon_zhizun_qingyunmeixiang_bag_600g':
             classes.append(6)
-        elif row['class'] == 'zhizun_white':
+        elif row['class'] == 'bluemoon_zhizun_qingyunmeixiang_660g':
             classes.append(7)
+        elif row['class'] == 'bluemoon_shouxi_shuangyong_fengqingbailai_500g':
+            classes.append(8)
+        elif row['class'] == 'bluemoon_zhizun_new_suyalanxiang_660g':
+            classes.append(9)
+        elif row['class'] == 'bluemoon_zhizun_new_qingyunmeixiang_660g':
+            classes.append(10)
+        elif row['class'] == 'bluemoon_baobao_red_500g':
+            classes.append(11)
+        elif row['class'] == 'bluemoon_jiecibao_500g':
+            classes.append(12)
+        elif row['class'] == 'bluemoon_lanseyueguang_bai_600g':
+            classes.append(13)
+        elif row['class'] == 'bluemoon_shenceng_500g':
+            classes.append(14)
+        elif row['class'] == 'bluemoon_weinuo_500g':
+            classes.append(15)
+        elif row['class'] == 'bluemoon_yurong_500g':
+            classes.append(16)
+        elif row['class'] == 'bluemoon_ertongxishou_caomei_225g':
+            classes.append(17)
+        elif row['class'] == 'bluemoon_ertongxishou_qingpingguo_225g':
+            classes.append(18)
+        elif row['class'] == 'bluemoon_ertongxishou_tiancheng_225g':
+            classes.append(19)
+        elif row['class'] == 'bluemoon_guopaoduoduo_300ml':
+            classes.append(20)
+        elif row['class'] == 'bluemoon_xishouye_luhui_500g':
+            classes.append(21)
+        elif row['class'] == 'bluemoon_xishouye_weie_500g':
+            classes.append(22)
+        elif row['class'] == 'bluemoon_xishouye_yejuhua_500g':
+            classes.append(23)
+        elif row['class'] == 'bluemoon_84xiaoduye_1.2kg':
+            classes.append(24)
+        elif row['class'] == 'bluemoon_bolishui_500g':
+            classes.append(25)
+        elif row['class'] == 'bluemoon_chaqing_500g':
+            classes.append(26)
+        elif row['class'] == 'bluemoon_dibanqingjie_600g':
+            classes.append(27)
+        elif row['class'] == 'bluemoon_piaobaishui_600g':
+            classes.append(28)
+        elif row['class'] == 'bluemoon_quannengshui_500g':
+            classes.append(29)
+        elif row['class'] == 'bluemoon_roushunji_500g':
+            classes.append(30)
+        elif row['class'] == 'bluemoon_yilingjing_500g':
+            classes.append(31)
+        elif row['class'] == 'bluemoon_yiwuxiaoduye_1kg':
+            classes.append(32)
+        elif row['class'] == 'bluemoon_youwukexing_500g':
+            classes.append(33)
+        elif row['class'] == 'bluemoon_liangbai_xunyicao_1kg':
+            classes.append(34)
+        elif row['class'] == 'bluemoon_liangbai_xunyicao_2kg':
+            classes.append(35)
+        elif row['class'] == 'bluemoon_liangbai_xunyicao_3kg':
+            classes.append(36)
+        elif row['class'] == 'bluemoon_liangbai_ziran_1kg':
+            classes.append(37)
+        elif row['class'] == 'bluemoon_liangbai_ziran_2kg':
+            classes.append(38)
+        elif row['class'] == 'bluemoon_liangbai_ziran_3kg':
+            classes.append(39)
     tf_example = tf.train.Example(features=tf.train.Features(feature={
         'image/height': dataset_util.int64_feature(row['height']),
         'image/width': dataset_util.int64_feature(row['width']),
