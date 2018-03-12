@@ -118,18 +118,8 @@ def create_tf_example(group, path):
             classes.append(32)
         elif row['class'] == 'bluemoon_youwukexing_500g':
             classes.append(33)
-        elif row['class'] == 'bluemoon_liangbai_xunyicao_1kg':
-            classes.append(34)
         elif row['class'] == 'bluemoon_liangbai_xunyicao_2kg':
-            classes.append(35)
-        elif row['class'] == 'bluemoon_liangbai_xunyicao_3kg':
-            classes.append(36)
-        elif row['class'] == 'bluemoon_liangbai_ziran_1kg':
-            classes.append(37)
-        elif row['class'] == 'bluemoon_liangbai_ziran_2kg':
-            classes.append(38)
-        elif row['class'] == 'bluemoon_liangbai_ziran_3kg':
-            classes.append(39)
+            classes.append(34)
     tf_example = tf.train.Example(features=tf.train.Features(feature={
         'image/height': dataset_util.int64_feature(row['height']),
         'image/width': dataset_util.int64_feature(row['width']),

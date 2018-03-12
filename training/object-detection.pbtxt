@@ -132,25 +132,5 @@ item {
 }
 item {
   id: 34
-  name: 'bluemoon_liangbai_xunyicao_1kg'
-}
-item {
-  id: 35
   name: 'bluemoon_liangbai_xunyicao_2kg'
-}
-item {
-  id: 36
-  name: 'bluemoon_liangbai_xunyicao_3kg'
-}
-item {
-  id: 37
-  name: 'bluemoon_liangbai_ziran_1kg'
-}
-item {
-  id: 38
-  name: 'bluemoon_liangbai_ziran_2kg'
-}
-item {
-  id: 39
-  name: 'bluemoon_liangbai_ziran_3kg'
 }
