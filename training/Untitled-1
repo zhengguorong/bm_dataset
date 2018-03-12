@@ -1,0 +1,33 @@
+
+python object_detection/export_inference_graph.py \
+     --input_type image_tensor \
+     --pipeline_config_path /home/zhengguorong/project/myModel/bm_dataset/training/ssd_mobilenet_v1_pets.config \
+     --trained_checkpoint_prefix /home/zhengguorong/project/myModel/bm_dataset/model.ckpt-52430 \
+     --output_directory /home/zhengguorong/project/myModel/bm_dataset/output_inference_graph.pb
+
+python object_detection/export_inference_graph.py \
+     --input_type image_tensor \
+     --pipeline_config_path /home/zhengguorong/project/myModel/raccoon_dataset/training/ssd_mobilenet_v1_pets.config \
+     --trained_checkpoint_prefix /home/zhengguorong/project/myModel/raccoon_dataset/model.ckpt-1010 \
+     --output_directory //home/zhengguorong/project/myModel/raccoon_dataset/output_inference_graph.pb
+
+python object_detection/export_inference_graph.py \
+     --input_type image_tensor \
+     --pipeline_config_path /root/bm_dataset/training/ssd_mobilenet_v1_pets.config \
+     --trained_checkpoint_prefix /root/bm_dataset/model.ckpt-34998 \
+     --output_directory /root/bm_dataset/output_inference_graph.pb
+
+ python object_detection/eval.py \
+        --logtostderr \
+        --checkpoint_dir=/root/bm_dataset \
+        --eval_dir=/root/bm_dataset/eval_dir \
+        --pipeline_config_path=/root/bm_dataset/training/ssd_mobilenet_v1_pets.config
+
+ python object_detection/eval.py \
+        --logtostderr \
+        --checkpoint_dir=/home/zhengguorong/project/myModel/bm_dataset \
+        --eval_dir=/home/zhengguorong/project/myModel/bm_dataset/eval_dir \
+        --pipeline_config_path=/home/zhengguorong/project/myModel/bm_dataset/training/ssd_mobilenet_v1_pets.config
+
+python object_detection/train.py --logtostderr --pipeline_config_path=/root/bm_dataset/training/ssd_mobilenet_v1_pets.config --train_dir=/root/bm_dataset       
+export PYTHONPATH=$PYTHONPATH:`pwd`:`pwd`/slim

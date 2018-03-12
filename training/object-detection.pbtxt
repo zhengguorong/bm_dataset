@@ -1,0 +1,156 @@
+item {
+  id: 1
+  name: 'bluemoon_shouxi_fengqingbailai_500g'
+}
+item {
+  id: 2
+  name: 'bluemoon_zhizun_suyalanxiang_660g'
+}
+item {
+  id: 3
+  name: 'bluemoon_zhizun_suyalanxiang_box'
+}
+item {
+  id: 4
+  name: 'bluemoon_zhizun_suyalanxiang_bag_600g'
+}
+item {
+  id: 5
+  name: 'bluemoon_zhizun_qingyunmeixiang_box'
+}
+item {
+  id: 6
+  name: 'bluemoon_zhizun_qingyunmeixiang_bag_600g'
+}
+item {
+  id: 7
+  name: 'bluemoon_zhizun_qingyunmeixiang_660g'
+}
+item {
+  id: 8
+  name: 'bluemoon_shouxi_shuangyong_fengqingbailai_500g'
+}
+item {
+  id: 9
+  name: 'bluemoon_zhizun_new_suyalanxiang_660g'
+}
+item {
+  id: 10
+  name: 'bluemoon_zhizun_new_qingyunmeixiang_660g'
+}
+item {
+  id: 11
+  name: 'bluemoon_baobao_red_500g'
+}
+item {
+  id: 12
+  name: 'bluemoon_jiecibao_500g'
+}
+item {
+  id: 13
+  name: 'bluemoon_lanseyueguang_bai_600g'
+}
+item {
+  id: 14
+  name: 'bluemoon_shenceng_500g'
+}
+item {
+  id: 15
+  name: 'bluemoon_weinuo_500g'
+}
+item {
+  id: 16
+  name: 'bluemoon_yurong_500g'
+}
+item {
+  id: 17
+  name: 'bluemoon_ertongxishou_caomei_225g'
+}
+item {
+  id: 18
+  name: 'bluemoon_ertongxishou_qingpingguo_225g'
+}
+item {
+  id: 19
+  name: 'bluemoon_ertongxishou_tiancheng_225g'
+}
+item {
+  id: 20
+  name: 'bluemoon_guopaoduoduo_300ml'
+}
+item {
+  id: 21
+  name: 'bluemoon_xishouye_luhui_500g'
+}
+item {
+  id: 22
+  name: 'bluemoon_xishouye_weie_500g'
+}
+item {
+  id: 23
+  name: 'bluemoon_xishouye_yejuhua_500g'
+}
+item {
+  id: 24
+  name: 'bluemoon_84xiaoduye_1.2kg'
+}
+item {
+  id: 25
+  name: 'bluemoon_bolishui_500g'
+}
+item {
+  id: 26
+  name: 'bluemoon_chaqing_500g'
+}
+item {
+  id: 27
+  name: 'bluemoon_dibanqingjie_600g'
+}
+item {
+  id: 28
+  name: 'bluemoon_piaobaishui_600g'
+}
+item {
+  id: 29
+  name: 'bluemoon_quannengshui_500g'
+}
+item {
+  id: 30
+  name: 'bluemoon_roushunji_500g'
+}
+item {
+  id: 31
+  name: 'bluemoon_yilingjing_500g'
+}
+item {
+  id: 32
+  name: 'bluemoon_yiwuxiaoduye_1kg'
+}
+item {
+  id: 33
+  name: 'bluemoon_youwukexing_500g'
+}
+item {
+  id: 34
+  name: 'bluemoon_liangbai_xunyicao_1kg'
+}
+item {
+  id: 35
+  name: 'bluemoon_liangbai_xunyicao_2kg'
+}
+item {
+  id: 36
+  name: 'bluemoon_liangbai_xunyicao_3kg'
+}
+item {
+  id: 37
+  name: 'bluemoon_liangbai_ziran_1kg'
+}
+item {
+  id: 38
+  name: 'bluemoon_liangbai_ziran_2kg'
+}
+item {
+  id: 39
+  name: 'bluemoon_liangbai_ziran_3kg'
+}
